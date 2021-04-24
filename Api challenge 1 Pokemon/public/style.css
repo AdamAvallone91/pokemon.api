@@ -1,0 +1,99 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.waterBtn:hover {
+    background-color: lightskyblue;
+    font-size: 24px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #008CBA;
+    transition-duration: 0.2s;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 0 15px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin: 10px;
+    padding: 10px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+button{
+    font-size: 24px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 0 15px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin: 10px;
+    padding: 10px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.fireBtn:hover { background-color: rgb(211, 12, 51);
+    font-size: 24px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #f44336;
+    transition-duration: 0.2s;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 0 15px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin: 10px;
+    padding: 10px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.grassBtn:hover {
+    font-size: 24px;
+    background-color: lightgreen;
+    border: 2px solid #4CAF50; 
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition-duration: 0.2s;
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 0 15px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    margin: 10px;
+    padding: 10px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.innerPokemonText {
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+
+}
+
+body {
+    height: 500px;
+        background-color: #cccccc;
+        background-image: center;
+}
+
+.container {
+    background-image:url("https://www.toptiertactics.com/wp-content/uploads/2012/12/Pokemon-Starter-Image1.png");
+    background-size: 100%;
+    display: flex;
+    width: 70em;
+    height: 30em;
+}
+
+img.fire,.water,.grass {
+    width: 200px;
+    height: 200px;
+}
